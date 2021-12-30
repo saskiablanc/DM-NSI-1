@@ -12,6 +12,7 @@ header{
   background-repeat: no-repeat;
   background-position: center;
   background-size: 850px;
+
 }
 
 header h1{
@@ -22,11 +23,17 @@ header h1{
   text-shadow:0 0 3px #000000
 }
 
-button{
+button {
   font-family: 'Lora', serif;
   background-color: #FF5F5F;
   border-style: groove;
   border-color: white;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
 }
 
 footer{
