@@ -4,23 +4,24 @@
    font-family: 'Pushster', cursive;
    background-color: #0F0000;
    color: white;
+   font-size: 24px;
 }
 
 header{
-  margin-top: 50px;
+  margin-top: 20px;
   background:url(poisson.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 850px;
+  background-size: 650px;
 
 }
 
 header h1{
   text-align: center;
-  font-size: 90px;
+  font-size: 77px;
   padding: 200px;
   color: #CBA6A6;
-  text-shadow:0 0 3px #000000
+  text-shadow:0 0 10px #000000
 }
 
 button {
@@ -29,16 +30,25 @@ button {
   border-style: groove;
   border-color: white;
   transition-duration: 0.4s;
+  border-radius: 5px;
+  font-size: 24px;
 }
 
 button:hover {
-  background-color: #4CAF50; /* Green */
+  background-color: red;
   color: white;
+  box-shadow: 7px 4px 4px white;
+}
+
+button:active {
+  background-color: #571a1a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 footer{
   background-color: #2A0000;
-  padding: 60px 130px;
+  padding: 83px 230px;
 }
 
 footer .colonnes{
