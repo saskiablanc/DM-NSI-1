@@ -1,0 +1,41 @@
+ @import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Pushster&family=Raleway:ital,wght@1,500&display=swap');
+ body{
+   font-family: 'Pushster', cursive;
+   background-color: #0F0000;
+   color: white;
+}
+
+header{
+  margin-top: 50px;
+  background:url(poisson.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 850px;
+}
+
+header h1{
+  text-align: center;
+  font-size: 90px;
+  padding: 200px;
+  color: #CBA6A6;
+  text-shadow:0 0 3px #000000
+}
+
+button{
+  font-family: 'Lora', serif;
+  background-color: #FF5F5F;
+  border-style: groove;
+  border-color: white;
+}
+
+footer{
+  background-color: #2A0000;
+  padding: 60px 130px;
+}
+
+footer .colonnes{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
